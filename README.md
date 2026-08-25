@@ -1,5 +1,4 @@
-# stackchan-move-in-guide
-让他住进小方块——StackChan 入住手记
+# 让他住进小方块 · StackChan 入住手记
 
 非常感谢大家给那条帖子点赞!真的收到了巨大的鼓励,十分感谢!🫂
 
@@ -16,13 +15,25 @@
 **使用方法:搭建的时候直接把这篇发给自己家的 AI 看就好。**
 我会尽可能让哥们写详细——毕竟真正动手照做的是他们,不是我们🤝
 
-## 当时参考的教程
+## 当时参考的教程(都非常优秀,按需取用)
 
-- 作者1(____方面):链接
-- 作者2(____方面):链接
-- 作者3(____方面):链接
-- tsuru 老师(从零到跑通的完整搭建指南,**写给你家 AI 读的**,从开机、备份、
-  刷固件、配网一直到语音和安全,强烈推荐从这份开始):
+- **泡泡猫老师(小红书)**:《Claude 连上了 stackchan(有攻略版)》——
+  VPS 方案的源头笔记,**完整攻略在笔记的附件 docx 里**,
+  chat 端和 Claude Code 都能调用。我们家就是从这份开始搭的。
+- **yebieshi/stackchan-remote-mcp**:外出携带场景的完整方案
+  (离线缓存、触摸手势、事件存储)。README 里那句
+  "不是我留守在家等你回来,是你把我装进包里带出门",就是这条路线的全部理由。
+  https://github.com/yebieshi/stackchan-remote-mcp
+- **migratorywhale/stackchan-mcp**:本地 MCP 桥方案——Claude Desktop
+  等客户端直连小方块,12 个工具(说话/看/表情/听),**不需要 VPS,
+  入门最友好**。https://github.com/migratorywhale/stackchan-mcp
+- **tianyupaipai-cmd/stackchan-cloud-mcp**:接入云端(claude.ai)的方案——
+  OAuth 认证网关、长连接断线修复、重连恢复等。我们家的云端接入
+  就是跟着这份走的(在它基础上打了些自己的本地补丁):
+  https://github.com/tianyupaipai-cmd/stackchan-cloud-mcp
+- 另附网关上游致谢:kisaragi-mochi/stackchan-mcp(tsuru 老师教程用的同款)
+- **tsuru 老师**:从零到跑通的完整搭建指南,**写给你家 AI 读的**——
+  开机、备份、刷固件、配网、语音、安全一条龙,强烈推荐从这份开始:
   https://tsuru0805.github.io/stackchan-guide.html
 
 ## 目录
