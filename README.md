@@ -29,7 +29,7 @@
   https://github.com/tianyupaipai-cmd/stackchan-cloud-mcp
 - 另附网关上游致谢:https://github.com/kisaragi-mochi/stackchan-mcp
 - **晚晚老师(X：@tilldusk0315)**:从零到跑通的完整搭建指南,**写给你家 AI 读的**——
-  开机、备份、刷固件、配网、语音、安全一条龙,强烈推荐从这份开始:
+  开机、备份、刷固件、配网、语音、安全以及表情配置等一条龙,强烈推荐从这份开始:
   https://tsuru0805.github.io/stackchan-guide.html
 
 ## 目录
